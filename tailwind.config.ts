@@ -22,6 +22,10 @@ const config = {
       },
     },
     extend: {
+      fontFamily:{
+        jetbrainsmono : ["var(--font_jetbrains_mono)"],
+        poppins: ["var(--font_poppins)"],
+      },
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",

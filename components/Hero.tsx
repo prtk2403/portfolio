@@ -1,9 +1,9 @@
 "use client";
 import { motion } from "framer-motion";
 import { HeroHighlight, Highlight } from "./ui/hero-highlight";
-import { Github } from "lucide-react";
-import { GitHubLogoIcon } from "@radix-ui/react-icons";
-import Navbar from "./Navbar";
+import { Button } from "./ui/button";
+import { MoveUpRight } from "lucide-react";
+
 
 export function HeroHighlightComponent() {
   return (
@@ -28,7 +28,9 @@ export function HeroHighlightComponent() {
           Full Stack Developer.
         </Highlight>
       </motion.h1>
-      <a href="https://github.com/prtk2403" target="_blank"><GitHubLogoIcon /></a>
+      <div className="flex justify-end m-5 p-2">
+      <a href="https://drive.google.com/file/d/1J7GMV3WMUFNkpXbgerOdvgwaZeQVDVhP/view" target="_blank"><Button className="bg-purple-500 hover:bg-purple-600"> <MoveUpRight/>Resume</Button></a>
+      </div>
     </HeroHighlight>
   );
 }

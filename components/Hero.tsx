@@ -4,7 +4,6 @@ import { HeroHighlight, Highlight } from "./ui/hero-highlight";
 import { Button } from "./ui/button";
 import { MoveUpRight } from "lucide-react";
 
-
 export function HeroHighlightComponent() {
   return (
     <HeroHighlight>
@@ -28,8 +27,15 @@ export function HeroHighlightComponent() {
           Data Analyst.
         </Highlight>
       </motion.h1>
-      <div className="flex justify-end m-5 p-2">
-      <a href="https://drive.google.com/file/d/1SSqZcVf_x6GDhgVkVdJ7w2vkRbbn1dgw/view?usp=sharing" target="_blank"><Button className="bg-purple-500 hover:bg-purple-600"> <MoveUpRight/>Resume</Button></a>
+      <div className="flex justify-center md:justify-end m-5 p-2">
+        <a
+          href="https://drive.google.com/file/d/1SSqZcVf_x6GDhgVkVdJ7w2vkRbbn1dgw/view?usp=sharing"
+          target="_blank"
+        >
+          <Button className="bg-purple-500 hover:bg-purple-600 text-center font-semibold text-md gap-1">
+            Resume <MoveUpRight className="h-5 w-5 gap-2" />
+          </Button>
+        </a>
       </div>
     </HeroHighlight>
   );

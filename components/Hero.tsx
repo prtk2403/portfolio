@@ -25,11 +25,11 @@ export function HeroHighlightComponent() {
       >
         Hi , I&apos;m Pratheek Nistala,a{" "}
         <Highlight className="text-black dark:text-white">
-          Full Stack Developer.
+          Data Analyst.
         </Highlight>
       </motion.h1>
       <div className="flex justify-end m-5 p-2">
-      <a href="https://drive.google.com/file/d/1J7GMV3WMUFNkpXbgerOdvgwaZeQVDVhP/view" target="_blank"><Button className="bg-purple-500 hover:bg-purple-600"> <MoveUpRight/>Resume</Button></a>
+      <a href="https://drive.google.com/file/d/1SSqZcVf_x6GDhgVkVdJ7w2vkRbbn1dgw/view?usp=sharing" target="_blank"><Button className="bg-purple-500 hover:bg-purple-600"> <MoveUpRight/>Resume</Button></a>
       </div>
     </HeroHighlight>
   );
